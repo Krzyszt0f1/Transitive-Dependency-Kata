@@ -10,7 +10,7 @@ public static class TransitiveDependencyResolver
                     line[0] + " " + FindTransitivesForDependency(line, dependencies) :
                     line).ToList();
 
-        // Sort final lise should it not be in alphabetical order
+        // Sort final lines should it not be in alphabetical order
         unsortedDependenciesWithTransitives.Sort();
 
         return unsortedDependenciesWithTransitives;
